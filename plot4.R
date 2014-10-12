@@ -12,7 +12,7 @@ png("plot4.png", height=480, width=480)
 par(mfrow=c(2,2))
 
 ## Create time series for plot2
-with(data, {plot(DateTime, Global_active_power,pch=NA,xlab="",ylab="Global Active Power (kilowatts)")
+with(data, {plot(DateTime, Global_active_power,pch=NA,xlab="",ylab="Global Active Power")
 lines(DateTime, Global_active_power)
 plot(DateTime, Voltage, pch=NA)
 lines(DateTime, Voltage)
